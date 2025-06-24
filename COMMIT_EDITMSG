@@ -1,0 +1,168 @@
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch main
+# Changes to be committed:
+#	modified:   Home.php
+#	modified:   Menu.php
+#	modified:   admin/manage_food_items.php
+#	modified:   admin/manage_orders.php
+#	modified:   admin/manage_users.php
+#	modified:   auth/Logout.php
+#	modified:   crud/create_food.php
+#	modified:   crud/delete_food.php
+#	modified:   crud/update_food.php
+#	modified:   customer/browse_menu.php
+#	modified:   customer/order_history.php
+#	modified:   customer/place_order.php
+#	modified:   customer/profile.php
+#	new file:   fo-system-main/.gitignore
+#	new file:   fo-system-main/About.php
+#	new file:   fo-system-main/Home.php
+#	new file:   fo-system-main/Menu.php
+#	new file:   fo-system-main/README.md
+#	new file:   fo-system-main/Reviews.php
+#	new file:   fo-system-main/admin/manage_food_items.php
+#	new file:   fo-system-main/admin/manage_orders.php
+#	new file:   fo-system-main/admin/manage_users.php
+#	new file:   fo-system-main/api/get_menu.php
+#	new file:   fo-system-main/auth/Login.php
+#	new file:   fo-system-main/auth/Logout.php
+#	new file:   fo-system-main/auth/Register.php
+#	new file:   fo-system-main/configure.php
+#	new file:   fo-system-main/crud/create_food.php
+#	new file:   fo-system-main/crud/delete_food.php
+#	new file:   fo-system-main/crud/read_food.php
+#	new file:   fo-system-main/crud/update_food.php
+#	new file:   fo-system-main/customer/browse_menu.php
+#	new file:   fo-system-main/customer/order_history.php
+#	new file:   fo-system-main/customer/place_order.php
+#	new file:   fo-system-main/customer/profile.php
+#	new file:   fo-system-main/image/Food-Plate.png
+#	new file:   fo-system-main/image/background.jpg
+#	new file:   fo-system-main/image/bg1.jpg
+#	new file:   fo-system-main/image/bg2.jpg
+#	new file:   fo-system-main/image/cat-all.png
+#	new file:   fo-system-main/image/cat-bev-cocacola.jpg
+#	new file:   fo-system-main/image/cat-bev-cold-coffee.jpg
+#	new file:   fo-system-main/image/cat-bev-green-tea.jpg
+#	new file:   fo-system-main/image/cat-bev-hot-chocolate.jpg
+#	new file:   fo-system-main/image/cat-bev-iced-tea.jpg
+#	new file:   fo-system-main/image/cat-bev-lemon-mint-cooler.jpg
+#	new file:   fo-system-main/image/cat-bev-mango-smoothie.jpg
+#	new file:   fo-system-main/image/cat-bev-mineral-water.jpg
+#	new file:   fo-system-main/image/cat-bev-orange-juice.jpg
+#	new file:   fo-system-main/image/cat-bev-strawberry-milkshake.jpg
+#	new file:   fo-system-main/image/cat-beverages.png
+#	new file:   fo-system-main/image/cat-des-brownie-sundae.jpg
+#	new file:   fo-system-main/image/cat-des-carrot-cake.jpg
+#	new file:   fo-system-main/image/cat-des-cheesecake.jpg
+#	new file:   fo-system-main/image/cat-des-choc-lava.jpg
+#	new file:   fo-system-main/image/cat-des-fruitsalad.jpg
+#	new file:   fo-system-main/image/cat-des-gulab.jpg
+#	new file:   fo-system-main/image/cat-des-icecream.jpg
+#	new file:   fo-system-main/image/cat-des-mango-mousse.jpg
+#	new file:   fo-system-main/image/cat-des-tiramisu.jpg
+#	new file:   fo-system-main/image/cat-des-waffle.jpg
+#	new file:   fo-system-main/image/cat-desserts.png
+#	new file:   fo-system-main/image/cat-fast-cheeseburger.jpg
+#	new file:   fo-system-main/image/cat-fast-chicken-nuggets.jpg
+#	new file:   fo-system-main/image/cat-fast-chicken-popcorn.jpg
+#	new file:   fo-system-main/image/cat-fast-chicken-sandwich.jpg
+#	new file:   fo-system-main/image/cat-fast-fish-fillet-burger.jpg
+#	new file:   fo-system-main/image/cat-fast-french-fries.jpg
+#	new file:   fo-system-main/image/cat-fast-hotdog-classic.jpg
+#	new file:   fo-system-main/image/cat-fast-mozzarella-sticks.jpg
+#	new file:   fo-system-main/image/cat-fast-onion-rings.jpg
+#	new file:   fo-system-main/image/cat-fast-veggie-wrap.jpg
+#	new file:   fo-system-main/image/cat-fastfood.png
+#	new file:   fo-system-main/image/cat-hot-bbq-pulled-pork-sliders.jpg
+#	new file:   fo-system-main/image/cat-hot-cajun-fried-chicken.jpg
+#	new file:   fo-system-main/image/cat-hot-chilli-cheese-fries.jpg
+#	new file:   fo-system-main/image/cat-hot-fiery-veggie-tacos.jpg
+#	new file:   fo-system-main/image/cat-hot-hot-garlic-prawns.jpg
+#	new file:   fo-system-main/image/cat-hot-loaded-nachos.jpg
+#	new file:   fo-system-main/image/cat-hot-peri-peri-chicken-skewers.jpg
+#	new file:   fo-system-main/image/cat-hot-spicy-chicken-wings.jpg
+#	new file:   fo-system-main/image/cat-hot-spicy-mutton-chops.jpg
+#	new file:   fo-system-main/image/cat-hot-sriracha-chicken-wrap.jpg
+#	new file:   fo-system-main/image/cat-hotpicks.png
+#	new file:   fo-system-main/image/cat-main-beef-steak.jpg
+#	new file:   fo-system-main/image/cat-main-butter-chicken.jpg
+#	new file:   fo-system-main/image/cat-main-chicken-biriyani.jpg
+#	new file:   fo-system-main/image/cat-main-grilled-chicken-platter.jpg
+#	new file:   fo-system-main/image/cat-main-grilled-salmon.jpg
+#	new file:   fo-system-main/image/cat-main-lamb-curry.jpg
+#	new file:   fo-system-main/image/cat-main-roast-chicken-dinner.jpg
+#	new file:   fo-system-main/image/cat-main-spaghetti.jpg
+#	new file:   fo-system-main/image/cat-main-tofu.jpg
+#	new file:   fo-system-main/image/cat-main-vegetable-curry.jpg
+#	new file:   fo-system-main/image/cat-maindishes.png
+#	new file:   fo-system-main/image/cat-pizza-bbq-chicken.jpg
+#	new file:   fo-system-main/image/cat-pizza-chicken-alfredo.jpg
+#	new file:   fo-system-main/image/cat-pizza-four-cheese.jpg
+#	new file:   fo-system-main/image/cat-pizza-hawaiian.jpg
+#	new file:   fo-system-main/image/cat-pizza-margherita.jpg
+#	new file:   fo-system-main/image/cat-pizza-meat-lovers.jpg
+#	new file:   fo-system-main/image/cat-pizza-mushroom-feast.jpg
+#	new file:   fo-system-main/image/cat-pizza-pepperoni.jpg
+#	new file:   fo-system-main/image/cat-pizza-spicy-paneer.jpg
+#	new file:   fo-system-main/image/cat-pizza-veggie-deluxe.jpg
+#	new file:   fo-system-main/image/cat-pizza.png
+#	new file:   fo-system-main/image/cat-salad-avocado.jpg
+#	new file:   fo-system-main/image/cat-salad-caesar.jpg
+#	new file:   fo-system-main/image/cat-salad-caprese.jpg
+#	new file:   fo-system-main/image/cat-salad-chicken-garden.jpg
+#	new file:   fo-system-main/image/cat-salad-coleslaw.jpg
+#	new file:   fo-system-main/image/cat-salad-egg.jpg
+#	new file:   fo-system-main/image/cat-salad-greek.jpg
+#	new file:   fo-system-main/image/cat-salad-quinoa.jpg
+#	new file:   fo-system-main/image/cat-salad-shrimp.jpg
+#	new file:   fo-system-main/image/cat-salad-tuna.jpg
+#	new file:   fo-system-main/image/cat-salads.png
+#	new file:   fo-system-main/image/chef1.png
+#	new file:   fo-system-main/image/chef2.png
+#	new file:   fo-system-main/image/chef3.jpg
+#	new file:   fo-system-main/image/chef4.jpg
+#	new file:   fo-system-main/image/chef5.png
+#	new file:   fo-system-main/image/deal01.jpg
+#	new file:   fo-system-main/image/deal02.jpg
+#	new file:   fo-system-main/image/deal03.jpg
+#	new file:   fo-system-main/image/deal04.jpg
+#	new file:   fo-system-main/image/deal05.jpg
+#	new file:   fo-system-main/image/deal06.jpg
+#	new file:   fo-system-main/image/deal07.jpg
+#	new file:   fo-system-main/image/deal08.jpg
+#	new file:   fo-system-main/image/deal09.jpg
+#	new file:   fo-system-main/image/deal10.jpg
+#	new file:   fo-system-main/image/logo.png
+#	new file:   fo-system-main/image/main_img.png
+#	new file:   fo-system-main/image/order_image.png
+#	new file:   fo-system-main/image/review_1.png
+#	new file:   fo-system-main/image/review_10.png
+#	new file:   fo-system-main/image/review_2.png
+#	new file:   fo-system-main/image/review_3.png
+#	new file:   fo-system-main/image/review_4.png
+#	new file:   fo-system-main/image/review_5.png
+#	new file:   fo-system-main/image/review_6.png
+#	new file:   fo-system-main/image/review_7.png
+#	new file:   fo-system-main/image/review_8.png
+#	new file:   fo-system-main/image/review_9.png
+#	new file:   fo-system-main/includes/admin_header.php
+#	new file:   fo-system-main/includes/customer_header.php
+#	new file:   fo-system-main/includes/footer.php
+#	new file:   fo-system-main/includes/header.php
+#	new file:   fo-system-main/includes/session_check.php
+#	new file:   fo-system-main/index.php
+#	new file:   fo-system-main/pages/admin.php
+#	new file:   fo-system-main/pages/customer.php
+#	new file:   fo-system-main/script.js
+#	new file:   fo-system-main/style.css
+#	modified:   includes/admin_header.php
+#	new file:   includes/customer_header.php
+#	modified:   includes/header.php
+#	modified:   pages/customer.php
+#	modified:   script.js
+#	modified:   style.css
+#
